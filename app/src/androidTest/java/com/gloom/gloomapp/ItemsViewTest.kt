@@ -16,7 +16,6 @@ class ItemsViewTest {
     @get:Rule
     val mActivityTestRule: ActivityTestRule<PartyActivity> = ActivityTestRule<PartyActivity>(PartyActivity::class.java)
 
-
     @Test
     fun navigateToItems() {
         onView(withId(R.id.ItemsButton)).perform(ViewActions.click())
