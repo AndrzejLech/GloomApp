@@ -1,172 +1,172 @@
 {
-    "data": [
-        {
-            "ItemDescription": "Podczas poruszania się dodaj +2 do Ruchu dla pojedyńczego ruchu",
-            "ItemID": 1,
-            "ItemName": "Buty Raźnego Kroku",
-            "ItemPrice": 20,
-            "StateID": 1,
-            "TypeID": 5
-        },
-        {
-            "ItemDescription": "Podczas poruszania się dodaj Skok do twojego ruchu",
-            "ItemID": 2,
-            "ItemName": "Uskrzydlone Buty",
-            "ItemPrice": 20,
-            "StateID": 1,
-            "TypeID": 5
-        },
-        {
-            "ItemDescription": "W dwóch następych przypadkach otrzymania obrażen ze skierowanych w ciebie aktaków zyskujesz Tarczę 1",
-            "ItemID": 3,
-            "ItemName": "Juchtowa Zbroja",
-            "ItemPrice": 10,
-            "StateID": 1,
-            "TypeID": 4
-        },
-        {
-            "ItemDescription": "Kiedy jesteś atakowany, atakujący otrzymuje Niekorzyść na ten atak",
-            "ItemID": 4,
-            "ItemName": "Skórzana Zbroja",
-            "ItemPrice": 20,
-            "StateID": 1,
-            "TypeID": 4
-        },
-        {
-            "ItemDescription": "Podcza twojej tury zyskujesz NIEWIDZIALNOŚĆ",
-            "ItemID": 5,
-            "ItemName": "Peleryna Niewidzialności",
-            "ItemPrice": 20,
-            "StateID": 2,
-            "TypeID": 4
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku zyskujesz Korzyść na całą akcję ataku",
-            "ItemID": 6,
-            "ItemName": "Gogle Sokolego Wzroku",
-            "ItemPrice": 30,
-            "StateID": 1,
-            "TypeID": 3
-        },
-        {
-            "ItemDescription": "Kiedy jesteś atakowany, rozpatrz każdy dobrany modyfikator x2 wroga jako +0",
-            "ItemID": 7,
-            "ItemName": "Stalowy Hełm",
-            "ItemPrice": 10,
-            "StateID": 3,
-            "TypeID": 3
-        },
-        {
-            "ItemDescription": "Kiedy otrzymujesz obrażenia z ataku, zyskujesz Tarczę 1 na ten atak",
-            "ItemID": 8,
-            "ItemName": "Kuta Tarcza",
-            "ItemPrice": 20,
-            "StateID": 1,
-            "TypeID": 1
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku dystansowego, zignoruj wszystkie wartości Tarczy wroga dla całej twojej akcji ataku",
-            "ItemID": 9,
-            "ItemName": "Łuk Przebicia",
-            "ItemPrice": 30,
-            "StateID": 2,
-            "TypeID": 2
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku wręcz dodaj OGŁUSZENIE dla całej twojej akcji ataku",
-            "ItemID": 10,
-            "ItemName": "Młot Bojowy",
-            "ItemPrice": 30,
-            "StateID": 2,
-            "TypeID": 2
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku wręcz dodaj ZATRUCIE dla twojego pojedyńczego ataku",
-            "ItemID": 11,
-            "ItemName": "Zatruty Sztylet",
-            "ItemPrice": 20,
-            "StateID": 1,
-            "TypeID": 1
-        },
-        {
-            "ItemDescription": "Podczas twojej wykonaj akcję \"Leczenie 3 na siebie\"",
-            "ItemID": 12,
-            "ItemName": "Mniejsza Mikstura Leczenia",
-            "ItemPrice": 10,
-            "StateID": 2,
-            "TypeID": 6
-        },
-        {
-            "ItemDescription": "Podczas twojej tury Odzyskaj do dwóch twoich odrzuconych kart",
-            "ItemID": 13,
-            "ItemName": "Mniejsza Mikstura Wytrzymałości",
-            "ItemPrice": 10,
-            "StateID": 2,
-            "TypeID": 6
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku dodaj +1 do Ataku dla całej twojej akcji ataku",
-            "ItemID": 14,
-            "ItemName": "Mniejsza Mikstura Mocy",
-            "ItemPrice": 10,
-            "StateID": 2,
-            "TypeID": 6
-        },
-        {
-            "ItemDescription": "Podczas twojej stwórz dowolny żywioł",
-            "ItemID": 15,
-            "ItemName": "Mniejsza Mikstura Many",
-            "ItemPrice": 10,
-            "StateID": 2,
-            "TypeID": 6
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku dodaj OGŁUCZENIE dla pojedyńczego ataku",
-            "ItemID": 16,
-            "ItemName": "Proch Ogłuszenia",
-            "ItemPrice": 20,
-            "StateID": 2,
-            "TypeID": 6
-        },
-        {
-            "ItemDescription": "Na początku rundy, po odsłonięciu wszystkich kart zdolności, podnieś lub obniż wartość incjatywy twojej katrty wiodącej o 10",
-            "ItemID": 17,
-            "ItemName": "Buty Szybkości",
-            "ItemPrice": 30,
-            "StateID": 1,
-            "TypeID": 5
-        },
-        {
-            "ItemDescription": "Możesz nosić dwa dodatkowe przedmioty",
-            "ItemID": 18,
-            "ItemName": "Płaszcz Z Kieszeniami",
-            "ItemPrice": 20,
-            "StateID": 3,
-            "TypeID": 4
-        },
-        {
-            "ItemDescription": "Podczas twojej tury możesz odświeżyć jednen ze zużytych przedmiotów",
-            "ItemID": 19,
-            "ItemName": "Talizman Wzmocnienia",
-            "ItemPrice": 45,
-            "StateID": 2,
-            "TypeID": 6
-        },
-        {
-            "ItemDescription": "Podczas twojej akcji ataku wręcz na pojedynczy cel zamień na atak o obszarza dwa wokół siebie",
-            "ItemID": 20,
-            "ItemName": "Topór Bojowy",
-            "ItemPrice": 20,
-            "StateID": 2,
-            "TypeID": 1
-        },
-        {
-            "ItemDescription": "Podczas twojego ataku dystansowego dodaj UNIERUCHOMIENIE dla pojedynczegi ataku",
-            "ItemID": 21,
-            "ItemName": "Wyważona Sieć",
-            "ItemPrice": 20,
-            "StateID": 1,
-            "TypeID": 2
-        }
-    ]
+  "data": [
+    {
+      "ItemDescription": "Podczas poruszania się dodaj +2 do Ruchu dla pojedyńczego ruchu",
+      "ItemID": 1,
+      "ItemName": "Buty Raźnego Kroku",
+      "ItemPrice": 20,
+      "StateID": 1,
+      "TypeID": 5
+    },
+    {
+      "ItemDescription": "Podczas poruszania się dodaj Skok do twojego ruchu",
+      "ItemID": 2,
+      "ItemName": "Uskrzydlone Buty",
+      "ItemPrice": 20,
+      "StateID": 1,
+      "TypeID": 5
+    },
+    {
+      "ItemDescription": "W dwóch następych przypadkach otrzymania obrażen ze skierowanych w ciebie aktaków zyskujesz Tarczę 1",
+      "ItemID": 3,
+      "ItemName": "Juchtowa Zbroja",
+      "ItemPrice": 10,
+      "StateID": 1,
+      "TypeID": 4
+    },
+    {
+      "ItemDescription": "Kiedy jesteś atakowany, atakujący otrzymuje Niekorzyść na ten atak",
+      "ItemID": 4,
+      "ItemName": "Skórzana Zbroja",
+      "ItemPrice": 20,
+      "StateID": 1,
+      "TypeID": 4
+    },
+    {
+      "ItemDescription": "Podcza twojej tury zyskujesz NIEWIDZIALNOŚĆ",
+      "ItemID": 5,
+      "ItemName": "Peleryna Niewidzialności",
+      "ItemPrice": 20,
+      "StateID": 2,
+      "TypeID": 4
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku zyskujesz Korzyść na całą akcję ataku",
+      "ItemID": 6,
+      "ItemName": "Gogle Sokolego Wzroku",
+      "ItemPrice": 30,
+      "StateID": 1,
+      "TypeID": 3
+    },
+    {
+      "ItemDescription": "Kiedy jesteś atakowany, rozpatrz każdy dobrany modyfikator x2 wroga jako +0",
+      "ItemID": 7,
+      "ItemName": "Stalowy Hełm",
+      "ItemPrice": 10,
+      "StateID": 3,
+      "TypeID": 3
+    },
+    {
+      "ItemDescription": "Kiedy otrzymujesz obrażenia z ataku, zyskujesz Tarczę 1 na ten atak",
+      "ItemID": 8,
+      "ItemName": "Kuta Tarcza",
+      "ItemPrice": 20,
+      "StateID": 1,
+      "TypeID": 1
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku dystansowego, zignoruj wszystkie wartości Tarczy wroga dla całej twojej akcji ataku",
+      "ItemID": 9,
+      "ItemName": "Łuk Przebicia",
+      "ItemPrice": 30,
+      "StateID": 2,
+      "TypeID": 2
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku wręcz dodaj OGŁUSZENIE dla całej twojej akcji ataku",
+      "ItemID": 10,
+      "ItemName": "Młot Bojowy",
+      "ItemPrice": 30,
+      "StateID": 2,
+      "TypeID": 2
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku wręcz dodaj ZATRUCIE dla twojego pojedyńczego ataku",
+      "ItemID": 11,
+      "ItemName": "Zatruty Sztylet",
+      "ItemPrice": 20,
+      "StateID": 1,
+      "TypeID": 1
+    },
+    {
+      "ItemDescription": "Podczas twojej wykonaj akcję \"Leczenie 3 na siebie\"",
+      "ItemID": 12,
+      "ItemName": "Mniejsza Mikstura Leczenia",
+      "ItemPrice": 10,
+      "StateID": 2,
+      "TypeID": 6
+    },
+    {
+      "ItemDescription": "Podczas twojej tury Odzyskaj do dwóch twoich odrzuconych kart",
+      "ItemID": 13,
+      "ItemName": "Mniejsza Mikstura Wytrzymałości",
+      "ItemPrice": 10,
+      "StateID": 2,
+      "TypeID": 6
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku dodaj +1 do Ataku dla całej twojej akcji ataku",
+      "ItemID": 14,
+      "ItemName": "Mniejsza Mikstura Mocy",
+      "ItemPrice": 10,
+      "StateID": 2,
+      "TypeID": 6
+    },
+    {
+      "ItemDescription": "Podczas twojej stwórz dowolny żywioł",
+      "ItemID": 15,
+      "ItemName": "Mniejsza Mikstura Many",
+      "ItemPrice": 10,
+      "StateID": 2,
+      "TypeID": 6
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku dodaj OGŁUCZENIE dla pojedyńczego ataku",
+      "ItemID": 16,
+      "ItemName": "Proch Ogłuszenia",
+      "ItemPrice": 20,
+      "StateID": 2,
+      "TypeID": 6
+    },
+    {
+      "ItemDescription": "Na początku rundy, po odsłonięciu wszystkich kart zdolności, podnieś lub obniż wartość incjatywy twojej katrty wiodącej o 10",
+      "ItemID": 17,
+      "ItemName": "Buty Szybkości",
+      "ItemPrice": 30,
+      "StateID": 1,
+      "TypeID": 5
+    },
+    {
+      "ItemDescription": "Możesz nosić dwa dodatkowe przedmioty",
+      "ItemID": 18,
+      "ItemName": "Płaszcz Z Kieszeniami",
+      "ItemPrice": 20,
+      "StateID": 3,
+      "TypeID": 4
+    },
+    {
+      "ItemDescription": "Podczas twojej tury możesz odświeżyć jednen ze zużytych przedmiotów",
+      "ItemID": 19,
+      "ItemName": "Talizman Wzmocnienia",
+      "ItemPrice": 45,
+      "StateID": 2,
+      "TypeID": 6
+    },
+    {
+      "ItemDescription": "Podczas twojej akcji ataku wręcz na pojedynczy cel zamień na atak o obszarza dwa wokół siebie",
+      "ItemID": 20,
+      "ItemName": "Topór Bojowy",
+      "ItemPrice": 20,
+      "StateID": 2,
+      "TypeID": 1
+    },
+    {
+      "ItemDescription": "Podczas twojego ataku dystansowego dodaj UNIERUCHOMIENIE dla pojedynczegi ataku",
+      "ItemID": 21,
+      "ItemName": "Wyważona Sieć",
+      "ItemPrice": 20,
+      "StateID": 1,
+      "TypeID": 2
+    }
+  ]
 }

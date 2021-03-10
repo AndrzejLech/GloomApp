@@ -14,18 +14,21 @@
         android:elevation="5dp"
         app:cardCornerRadius="5dp"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <FrameLayout
                 android:layout_width="150dp"
                 android:layout_height="200dp">
+
                 <ImageView
                     android:id="@+id/partyImage"
                     android:src="@drawable/placeholder"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="match_parent" />
             </FrameLayout>
         </LinearLayout>
 
@@ -48,7 +51,7 @@
             android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nazwa gracza"/>
+            android:hint="Nazwa gracza" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton

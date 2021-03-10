@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Room Database(RxJava+MVVM) Mutiple Table'
+rootProject.name = 'GloomApp'

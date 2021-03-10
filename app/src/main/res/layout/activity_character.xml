@@ -8,14 +8,15 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@android:color/white"
             app:popupTheme="@style/AppTheme.PopupOverlay">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -25,6 +26,7 @@
                 android:layout_gravity="left"
                 android:id="@+id/toolbar_title" />
         </androidx.appcompat.widget.Toolbar>
+
         <ProgressBar
             android:visibility="gone"
             android:id="@+id/progress"
@@ -48,7 +50,6 @@
         android:layout_margin="@dimen/fab_margin"
         android:tint="@android:color/white"
         android:src="@drawable/ic_add" />
-
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

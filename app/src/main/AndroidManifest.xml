@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.foxhole.roomdatabaserxjavamvvmmutipletable">
+    package="com.gloom.gloomapp">
 
     <application
         android:allowBackup="false"
@@ -10,19 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".View.PlayersActivity"
+            android:name="com.gloom.gloomapp.View.PlayersActivity"
             android:label="@string/title_activity_players"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".View.CharactersActivity"
+        <activity
+            android:name="com.gloom.gloomapp.View.CharactersActivity"
             android:label="Postacie"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".View.ItemsActivity"
+        <activity
+            android:name="com.gloom.gloomapp.View.ItemsActivity"
             android:label="Przedmioty"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".View.ItemDetails"
+        <activity
+            android:name="com.gloom.gloomapp.View.ItemDetails"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".View.PartyActivity"
+            android:name="com.gloom.gloomapp.View.PartyActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -32,6 +35,7 @@
             </intent-filter>
         </activity>
     </application>
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
