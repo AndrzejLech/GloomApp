@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/select_image"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <ImageView
+                    android:id="@+id/partyImage"
+                    android:src="@drawable/placeholder"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </FrameLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Wybierz obraz postaci"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/character_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nazwa Postaci" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColorHint="#FFFFFFFF"
+        app:endIconTint="#FFFFFF">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/ClassSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:spinnerMode="dropdown"
+            android:textColor="#FFFFFF"></androidx.appcompat.widget.AppCompatSpinner>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_character"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Zapisz"
+        android:textColor="@color/colorAccent"></com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

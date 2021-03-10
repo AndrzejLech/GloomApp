@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gloomApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_players">Gracze</string>
+    <string name="error_note">Wypełnij wszystkie dane</string>
+
+</resources>
