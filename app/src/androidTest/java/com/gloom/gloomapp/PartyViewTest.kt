@@ -12,11 +12,11 @@ import com.gloom.gloomapp.View.PartyActivity
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.not
 import org.junit.FixMethodOrder
+
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runners.MethodSorters
 
-@LargeTest
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 class PartyViewTest {
     companion object {
@@ -28,8 +28,9 @@ class PartyViewTest {
     @get:Rule
     val mActivityTestRule: ActivityTestRule<PartyActivity> = ActivityTestRule<PartyActivity>(PartyActivity::class.java)
 
+
     @Test
-    fun testA_createSingleParty() {
+    fun A_CreateSingleParty() {
         onView(withId(R.id.fab_parties)).perform(click())
 
         onView(withId(R.id.et_party_name)).perform(typeText(SinglePartyName))
@@ -40,7 +41,7 @@ class PartyViewTest {
     }
 
     @Test
-    fun testB_deleteSingleParty() {
+    fun B_deleteSingleParty() {
         onView(withId(R.id.partyRecycler)).check(matches(hasDescendant(withText(SinglePartyName))))
 
         onView(withId(R.id.partyRecycler)).perform(actionOnItem<RecyclerView.ViewHolder>(hasDescendant(withText(SinglePartyName)), swipeRight()))
@@ -49,7 +50,7 @@ class PartyViewTest {
     }
 
     @Test
-    fun testC_createManyParties() {
+    fun C_createManyParties() {
         for (index in 0..1) {
             onView(withId(R.id.fab_parties)).perform(click())
 
@@ -62,7 +63,7 @@ class PartyViewTest {
     }
 
     @Test
-    fun testD_deleteManyParties() {
+    fun D_deleteManyParties() {
 
         for (index in 0..1) {
             onView(withId(R.id.partyRecycler)).check(matches(hasDescendant(withText("$ManyPartiesName $index"))))

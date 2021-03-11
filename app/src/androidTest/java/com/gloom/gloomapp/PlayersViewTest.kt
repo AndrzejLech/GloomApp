@@ -7,7 +7,6 @@ import androidx.test.espresso.action.ViewActions.*
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.contrib.RecyclerViewActions.actionOnItem
 import androidx.test.espresso.matcher.ViewMatchers.*
-import androidx.test.filters.LargeTest
 import androidx.test.rule.ActivityTestRule
 import com.gloom.gloomapp.View.PartyActivity
 import org.hamcrest.Matchers
@@ -17,7 +16,6 @@ import org.junit.Test
 import org.junit.runners.MethodSorters
 
 
-@LargeTest
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 class PlayersViewTest {
     companion object {
@@ -31,7 +29,7 @@ class PlayersViewTest {
     val mActivityTestRule: ActivityTestRule<PartyActivity> = ActivityTestRule<PartyActivity>(PartyActivity::class.java)
 
     @Test
-    fun testA_createSinglePlayer(){
+    fun A_createSinglePlayer(){
         onView(withId(R.id.fab_parties)).perform(click())
 
         onView(withId(R.id.et_party_name)).perform(typeText(partyName))
@@ -48,7 +46,7 @@ class PlayersViewTest {
     }
 
     @Test
-    fun testB_deleteSinglePlayer() {
+    fun B_deleteSinglePlayer() {
         onView(withId(R.id.partyRecycler)).perform(actionOnItem<RecyclerView.ViewHolder>(hasDescendant(withText(partyName)), click()))
 
         onView(withId(R.id.playersRecycler)).perform(actionOnItem<RecyclerView.ViewHolder>(hasDescendant(withText(deleteSinglePlayerPLayerName)), swipeRight()))
@@ -57,7 +55,7 @@ class PlayersViewTest {
     }
 
     @Test
-    fun testC_createManyPlayers() {
+    fun C_createManyPlayers() {
         onView(withId(R.id.partyRecycler)).perform(actionOnItem<RecyclerView.ViewHolder>(hasDescendant(withText(partyName)), click()))
 
         for (index in 0..1) {
@@ -70,7 +68,8 @@ class PlayersViewTest {
     }
 
     @Test
-    fun testD_deleteManyPlayers() {
+
+    fun D_deleteManyPlayers() {
         onView(withId(R.id.partyRecycler)).perform(actionOnItem<RecyclerView.ViewHolder>(hasDescendant(withText(partyName)), click()))
 
         onView(withId(R.id.action_delete))

@@ -11,7 +11,6 @@ import org.hamcrest.CoreMatchers
 import org.junit.Rule
 import org.junit.Test
 
-@LargeTest
 class ItemsViewTest {
     @get:Rule
     val mActivityTestRule: ActivityTestRule<PartyActivity> = ActivityTestRule<PartyActivity>(PartyActivity::class.java)
